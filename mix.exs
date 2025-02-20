@@ -23,11 +23,12 @@ defmodule W.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:oban, "2.18.3"},
+      {:oban, "2.19.2"},
+      {:jason, "~> 1.2"},
       {:ecto, "~> 3.12"},
       {:ecto_sql, "~> 3.6"},
       {:postgrex, ">= 0.0.0"},
-      {:oban_pro, "~> 1.4", repo: "oban"}
+      {:oban_pro, "~> 1.5", repo: "oban"}
     ]
   end
 
